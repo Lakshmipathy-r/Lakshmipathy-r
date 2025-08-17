@@ -71,6 +71,7 @@ Built with HTML, CSS, and JavaScript.
 
 - 💼 [LinkedIn](www.linkedin.com/in/lakshmipathy-r-)
 - 📁 [Portfolio](https://lakshmipathy-r.github.io/Portfolio/)
+- 📦 [Repositories](https://github.com/Lakshmipathy-r?tab=repositories)
 - 📫 lakshmipathyr2k6@gmail.com
 
 ---
