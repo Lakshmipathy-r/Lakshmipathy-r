@@ -22,7 +22,7 @@
 
 ## ⚡ Quick Pitch & Philosophy
 
-Welcome to my digital workspace! I am a BCA graduate and an aspiring full-stack developer dedicated to mastering the MERN stack and writing clean, scalable, and modular code.
+Welcome to my digital workspace! I am a BCA graduate and an aspiring software developer dedicated to writing clean, scalable, and modular code.
 
 > **"Every bug I fix is a lesson learned. Every feature I ship is a story told. I don't just build projects—I build possibilities."**
 
