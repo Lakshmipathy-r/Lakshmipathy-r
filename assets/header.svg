@@ -2,7 +2,7 @@
   <defs>
     <!-- Fonts Import -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;family=Space+Grotesk:wght@700;800&amp;family=JetBrains+Mono:wght@400;500;700&amp;display=swap');
       
       /* Animation Definitions */
       @keyframes float-slow {
@@ -58,6 +58,10 @@
         font-size: 38px;
         fill: #ffffff;
         letter-spacing: 0.5px;
+      }
+      .name-span {
+        font-family: 'Space Grotesk', -apple-system, sans-serif;
+        font-weight: 800;
       }
       
       .subtitle {
@@ -181,17 +185,17 @@
 
       <!-- Main Name -->
       <text x="0" y="65" class="title-name">
-        I'm <tspan fill="url(#name-grad)">Lakshmipathy</tspan>
+        I'm <tspan class="name-span" fill="url(#name-grad)">Lakshmipathy</tspan>
       </text>
 
       <!-- Subtitle -->
       <text x="0" y="96" class="subtitle">
-        MERN Stack &amp; Full-Stack Developer
+        Software Developer in the making
       </text>
 
       <!-- Brief Description -->
       <text x="0" y="118" class="body-desc">
-        Final-year BCA student crafting modern, scalable, and human-centric web applications.
+        BCA student crafting modern, scalable, and human-centric web applications.
       </text>
 
       <!-- Glass Console/Terminal Line (Typewriter) -->

@@ -71,7 +71,49 @@ Here is a live look at my coding journey, language distribution, and activity on
 ## 🛠️ My Tech Toolbox
 
 <p align="center">
-  <img src="assets/toolbox.svg" width="100%" alt="Lakshmipathy's Tech Toolbox" />
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML5">
+    <img src="https://skillicons.dev/icons?i=html" alt="HTML5" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3">
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://www.typescriptlang.org" title="TypeScript">
+    <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://react.dev" title="React.js">
+    <img src="https://skillicons.dev/icons?i=react" alt="React" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://nextjs.org" title="Next.js">
+    <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://nodejs.org" title="Node.js">
+    <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="48" height="48" />
+  </a>
+  <br />
+  <a href="https://expressjs.com" title="Express.js">
+    <img src="https://skillicons.dev/icons?i=express" alt="Express.js" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://www.mongodb.com" title="MongoDB">
+    <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://firebase.google.com" title="Firebase">
+    <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://www.python.org" title="Python">
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://git-scm.com" title="Git">
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://github.com" title="GitHub">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="48" height="48" />
+  </a>&nbsp;
+  <a href="https://code.visualstudio.com" title="VS Code">
+    <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" width="48" height="48" />
+  </a>
 </p>
 
 ---
@@ -79,6 +121,23 @@ Here is a live look at my coding journey, language distribution, and activity on
 ## 🚀 Featured Projects
 
 Here is a selection of my key projects demonstrating frontend visuals, full-stack architectures, and clean database integrations.
+
+### 🏎️ [MV3 – Max Verstappen Fan Page](https://github.com/Lakshmipathy-r/MV3-Fan_Page)
+* **Technologies:** <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+* **Highlights:** High-performance F1 scroll animations (273 frames), interactive canvas-based telemetry, orange smoke particles, and live team radio simulator.
+
+<details>
+  <summary><b>🔍 View Project Details &amp; Live Site</b></summary>
+  <br />
+  <ul>
+    <li><b>Live Site:</b> <a href="https://mv3fan-page.vercel.app">mv3fan-page.vercel.app</a></li>
+    <li><b>Codebase:</b> <a href="https://github.com/Lakshmipathy-r/MV3-Fan_Page">Repository</a></li>
+    <li><b>Key Features:</b> Responsive mobile/desktop layouts, immersive canvas effects (smoke generator, warp-speed particles), audio F1 radio triggers, and interactive career stats metrics.</li>
+  </ul>
+</details>
+
+</br>
+
 
 ### 🎭 [Strangers – Cultural Festival](https://github.com/Lakshmipathy-r/Strangers-demo)
 * **Technologies:** <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
@@ -112,21 +171,6 @@ Here is a selection of my key projects demonstrating frontend visuals, full-stac
   <p align="center">
     <img src="https://github.com/Lakshmipathy-r/Project-Management-Tool/blob/main/Screenshots/Dashboard%20UI.png?raw=true" alt="Project Management Dashboard UI" width="90%" style="border-radius: 12px; border: 1px solid #252147;" />
   </p>
-</details>
-
-<br />
-
-### 🔐 [Login Page](https://github.com/Lakshmipathy-r/Login-page)
-* **Technologies:** <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-* **Highlights:** Clean CSS styling, interactive UI transitions, client-side/server-side validations.
-
-<details>
-  <summary><b>🔍 View Project Details</b></summary>
-  <br />
-  <ul>
-    <li><b>Codebase:</b> <a href="https://github.com/Lakshmipathy-r/Login-page">Repository</a></li>
-    <li><b>Highlights:</b> Serves as a modular login template for quick integration into full-stack templates. Supports session control and smooth field validations.</li>
-  </ul>
 </details>
 
 <br />
