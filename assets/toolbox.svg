@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+    
+    <!-- Glow Filters -->
+    <filter id="glow-react" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-node" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-python" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-tools" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <!-- CSS Styles for interactivity -->
+    <style>
+      .card {
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), filter 0.4s ease, stroke 0.4s ease;
+        fill: #0f172a;
+        stroke: #1e293b;
+        stroke-width: 1.5;
+      }
+      
+      /* Target each group wrapper for transition */
+      .card-group {
+        transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        cursor: pointer;
+      }
+      
+      .card-group:hover {
+        transform: translateY(-8px);
+      }
+      
+      .card-group:hover .card {
+        fill: #131c31;
+      }
+      
+      /* Specific hover styles */
+      .react-group:hover .card {
+        stroke: #61dafb;
+        filter: drop-shadow(0 12px 20px rgba(97, 218, 251, 0.2));
+      }
+      .node-group:hover .card {
+        stroke: #5fa04e;
+        filter: drop-shadow(0 12px 20px rgba(95, 160, 78, 0.2));
+      }
+      .python-group:hover .card {
+        stroke: #ffd43b;
+        filter: drop-shadow(0 12px 20px rgba(255, 212, 59, 0.2));
+      }
+      .tools-group:hover .card {
+        stroke: #a855f7;
+        filter: drop-shadow(0 12px 20px rgba(168, 85, 247, 0.2));
+      }
+      
+      .title {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        fill: #f1f5f9;
+        letter-spacing: 0.5px;
+      }
+      
+      .tech-tag {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #cbd5e1;
+      }
+      
+      .tech-subtag {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        fill: #64748b;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Content Wrapper -->
+  <g transform="translate(30, 25)">
+    <!-- Header -->
+    <text x="0" y="5" font-family="'system-ui', -apple-system, sans-serif" font-weight="800" font-size="18" fill="#ffffff" letter-spacing="1px">
+      🛠️ MY TECH TOOLBOX
+    </text>
+    <text x="0" y="23" font-family="'system-ui', -apple-system, sans-serif" font-size="11" fill="#64748b">
+      Interact to discover libraries, frameworks, and deployment workflows.
+    </text>
+    
+    <!-- Grid Layout -->
+    <!-- Card 1: Frontend (React & Web) -->
+    <g class="card-group react-group" transform="translate(0, 45)">
+      <rect class="card" width="170" height="135" rx="12" />
+      <text x="18" y="28" class="title">Frontend Dev</text>
+      <line x1="18" y1="38" x2="152" y2="38" stroke="#1e293b" stroke-width="1.5" />
+      
+      <g transform="translate(18, 52)">
+        <!-- React Icon -->
+        <circle cx="12" cy="12" r="8" fill="#0d1527" stroke="#61dafb" stroke-width="1"/>
+        <ellipse rx="6" ry="2" fill="none" stroke="#61dafb" stroke-width="0.8" transform="translate(12, 12) rotate(0)"/>
+        <ellipse rx="6" ry="2" fill="none" stroke="#61dafb" stroke-width="0.8" transform="translate(12, 12) rotate(60)"/>
+        <ellipse rx="6" ry="2" fill="none" stroke="#61dafb" stroke-width="0.8" transform="translate(12, 12) rotate(120)"/>
+        <text x="28" y="16" class="tech-tag">React.js</text>
+      </g>
+      
+      <g transform="translate(18, 80)">
+        <!-- JS Icon -->
+        <rect x="3" y="3" width="18" height="18" rx="2" fill="#f7df1e" />
+        <text x="18" y="16" font-family="'Impact', sans-serif" font-size="10" fill="#000000" text-anchor="end">JS</text>
+        <text x="28" y="16" class="tech-tag">JavaScript</text>
+      </g>
+      
+      <g transform="translate(18, 114)">
+        <text x="0" y="0" class="tech-subtag">HTML5 • CSS3</text>
+      </g>
+    </g>
+
+    <!-- Card 2: Backend (Node.js & Express) -->
+    <g class="card-group node-group" transform="translate(190, 45)">
+      <rect class="card" width="170" height="135" rx="12" />
+      <text x="18" y="28" class="title">Backend &amp; DB</text>
+      <line x1="18" y1="38" x2="152" y2="38" stroke="#1e293b" stroke-width="1.5" />
+      
+      <g transform="translate(18, 52)">
+        <!-- Node.js Icon -->
+        <circle cx="12" cy="12" r="8" fill="#0e1b10" stroke="#5fa04e" stroke-width="1"/>
+        <path d="M 12,7 L 16.5,9.5 L 16.5,14.5 L 12,17 L 7.5,14.5 L 7.5,9.5 Z" fill="none" stroke="#5fa04e" stroke-width="0.8"/>
+        <text x="28" y="16" class="tech-tag">Node.js</text>
+      </g>
+      
+      <g transform="translate(18, 80)">
+        <!-- DB Icon (MongoDB) -->
+        <circle cx="12" cy="12" r="8" fill="#0c1d12" stroke="#13aa52" stroke-width="1"/>
+        <path d="M12,7 C14.5,9.5 14.5,13.5 12,17 C9.5,13.5 9.5,9.5 12,7 Z" fill="#13aa52" opacity="0.8"/>
+        <text x="28" y="16" class="tech-tag">MongoDB</text>
+      </g>
+      
+      <g transform="translate(18, 114)">
+        <text x="0" y="0" class="tech-subtag">Express.js • MERN</text>
+      </g>
+    </g>
+
+    <!-- Card 3: Programming Languages -->
+    <g class="card-group python-group" transform="translate(380, 45)">
+      <rect class="card" width="170" height="135" rx="12" />
+      <text x="18" y="28" class="title">Languages</text>
+      <line x1="18" y1="38" x2="152" y2="38" stroke="#1e293b" stroke-width="1.5" />
+      
+      <g transform="translate(18, 52)">
+        <!-- Python Icon -->
+        <circle cx="12" cy="12" r="8" fill="#0d1727" stroke="#3776ab" stroke-width="1"/>
+        <path d="M12,8 C10.5,8 10.2,8.8 10.2,9.5 L10.2,10.5 L11.8,10.5 L11.8,11 C10.8,11 10,11.3 10,12.2 C10,13.2 10.8,14 12.2,14 L13.2,14 L13.2,13 L11.8,13 C11.2,13 11.2,12.2 11.8,12.2 L13.2,12.2 C13.8,12.2 14.5,11.5 14.5,10.8 L14.5,9.5 C14.5,8.8 13.8,8 12,8 Z" fill="#ffd43b" opacity="0.9"/>
+        <text x="28" y="16" class="tech-tag">Python</text>
+      </g>
+      
+      <g transform="translate(18, 80)">
+        <!-- JavaScript Tag -->
+        <circle cx="12" cy="12" r="8" fill="#1b1b0d" stroke="#f7df1e" stroke-width="1"/>
+        <text x="12" y="15" font-family="'Impact', sans-serif" font-size="9" fill="#f7df1e" text-anchor="middle">JS</text>
+        <text x="28" y="16" class="tech-tag">JavaScript</text>
+      </g>
+      
+      <g transform="translate(18, 114)">
+        <text x="0" y="0" class="tech-subtag">C / C++ Basics</text>
+      </g>
+    </g>
+
+    <!-- Card 4: Tools & Platforms -->
+    <g class="card-group tools-group" transform="translate(570, 45)">
+      <rect class="card" width="170" height="135" rx="12" />
+      <text x="18" y="28" class="title">Ecosystem</text>
+      <line x1="18" y1="38" x2="152" y2="38" stroke="#1e293b" stroke-width="1.5" />
+      
+      <g transform="translate(18, 52)">
+        <!-- Git Icon -->
+        <circle cx="12" cy="12" r="8" fill="#1e100e" stroke="#f05032" stroke-width="1"/>
+        <circle cx="12" cy="10" r="1.5" fill="#f05032"/>
+        <circle cx="10" cy="13" r="1.5" fill="#f05032"/>
+        <circle cx="14" cy="13" r="1.5" fill="#f05032"/>
+        <line x1="12" y1="10" x2="10" y2="13" stroke="#f05032" stroke-width="1"/>
+        <line x1="12" y1="10" x2="14" y2="13" stroke="#f05032" stroke-width="1"/>
+        <text x="28" y="16" class="tech-tag">Git &amp; GitHub</text>
+      </g>
+      
+      <g transform="translate(18, 80)">
+        <!-- Hosting (Vercel) -->
+        <circle cx="12" cy="12" r="8" fill="#1b112c" stroke="#a855f7" stroke-width="1"/>
+        <polygon points="12,8 8,15 16,15" fill="#ffffff"/>
+        <text x="28" y="16" class="tech-tag">Vercel &amp; Netlify</text>
+      </g>
+      
+      <g transform="translate(18, 114)">
+        <text x="0" y="0" class="tech-subtag">VS Code • Notion</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#020408" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="50%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f857a6" />
+      <stop offset="100%" stop-color="#ff5858" />
+    </linearGradient>
+    <linearGradient id="mern-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <!-- Blur Filters for Glow Effects -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" result="blur" />
+    </filter>
+    
+    <!-- Style Section -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { transform: scale(1) translate(0px, 0px); opacity: 0.4; }
+        50% { transform: scale(1.1) translate(20px, -10px); opacity: 0.6; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(3deg); }
+      }
+      @keyframes float-reverse {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(8px) rotate(-3deg); }
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #00d2ff; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .bg-orb-1 {
+        animation: pulse 8s ease-in-out infinite;
+        transform-origin: 200px 100px;
+      }
+      .bg-orb-2 {
+        animation: pulse 12s ease-in-out infinite alternate;
+        transform-origin: 600px 180px;
+      }
+      .title {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        fill: #ffffff;
+        letter-spacing: 2px;
+        animation: fadeIn 1s ease-out forwards;
+      }
+      .subtitle {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        fill: #94a3b8;
+        animation: fadeIn 1.2s ease-out forwards;
+      }
+      .highlight {
+        fill: url(#text-grad);
+        font-weight: 800;
+      }
+      .badge-text {
+        font-family: 'system-ui', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        fill: #ffffff;
+        letter-spacing: 1px;
+      }
+      .floating-logo-1 {
+        animation: float 6s ease-in-out infinite;
+      }
+      .floating-logo-2 {
+        animation: float-reverse 5s ease-in-out infinite;
+      }
+      .floating-logo-3 {
+        animation: float 7s ease-in-out infinite;
+      }
+      .avatar-glow {
+        animation: pulse 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Rect -->
+  <rect width="100%" height="100%" rx="16" fill="url(#bg-grad)" />
+  
+  <!-- Glowing background orbs for modern dark aesthetic -->
+  <circle class="bg-orb-1" cx="150" cy="80" r="100" fill="#00d2ff" opacity="0.15" filter="url(#glow-purple)" />
+  <circle class="bg-orb-2" cx="650" cy="180" r="120" fill="#a855f7" opacity="0.15" filter="url(#glow-purple)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.05">
+    <path d="M 0,20 L 800,20 M 0,40 L 800,40 M 0,60 L 800,60 M 0,80 L 800,80 M 0,100 L 800,100 M 0,120 L 800,120 M 0,140 L 800,140 M 0,160 L 800,160 M 0,180 L 800,180 M 0,200 L 800,200 M 0,220 L 800,220 M 0,240 L 800,240 M 0,260 L 800,260" stroke="#ffffff" stroke-width="1"/>
+    <path d="M 40,0 L 40,280 M 80,0 L 80,280 M 120,0 L 120,280 M 160,0 L 160,280 M 200,0 L 200,280 M 240,0 L 240,280 M 280,0 L 280,280 M 320,0 L 320,280 M 360,0 L 360,280 M 400,0 L 400,280 M 440,0 L 440,280 M 480,0 L 480,280 M 520,0 L 520,280 M 560,0 L 560,280 M 600,0 L 600,280 M 640,0 L 640,280 M 680,0 L 680,280 M 720,0 L 720,280 M 760,0 L 760,280" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Left Side: Profile Text Content -->
+  <g transform="translate(60, 50)">
+    <!-- Waving hand + Welcome -->
+    <g transform="translate(0, 0)">
+      <!-- Badge border & background -->
+      <rect x="0" y="0" width="220" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <!-- Animated Waving Hand -->
+      <g class="floating-logo-1" transform="translate(12, 6)">
+        <path d="M7 11.5a1.5 1.5 0 11-3 0V8a1.5 1.5 0 013 0v3.5zm2-2a1.5 1.5 0 11-3 0V5a1.5 1.5 0 013 0v4.5zm2-1a1.5 1.5 0 11-3 0V4a1.5 1.5 0 013 0v4.5zm2 1.5a1.5 1.5 0 11-3 0V8a1.5 1.5 0 013 0v1.5zm1.5.5a1.5 1.5 0 11-3 0v.5a1.5 1.5 0 013 0V11z" fill="#f59e0b" />
+        <path d="M4 11.5a4.5 4.5 0 009 0v-4.5h-.05a1.5 1.5 0 01-.45.05 1.5 1.5 0 01-1 .38V8.5h-.05a1.5 1.5 0 01-.45.05 1.5 1.5 0 01-1 .38V6.5h-.05a1.5 1.5 0 01-.45.05 1.5 1.5 0 01-1 .38V8.5h-.05a1.5 1.5 0 01-.45.05 1.5 1.5 0 01-1 .38V11.5z" fill="#f59e0b" opacity="0.3"/>
+      </g>
+      <text x="36" y="18" class="badge-text">GREETINGS, EARTHLING!</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="70" class="title">
+      I'm <tspan class="highlight">Lakshmipathy</tspan>
+    </text>
+    
+    <!-- Subtitle / Role -->
+    <text x="0" y="105" class="subtitle">
+      Full-Stack Developer in the making 🚀
+    </text>
+    
+    <!-- Brief Hook -->
+    <text x="0" y="135" font-family="'system-ui', -apple-system, sans-serif" font-size="14" fill="#64748b">
+      Final-year BCA student crafting sleek web apps with MERN stack.
+    </text>
+    
+    <!-- Motto quote -->
+    <g transform="translate(0, 160)" opacity="0.85">
+      <rect x="0" y="0" width="460" height="34" rx="6" fill="#0f172a" stroke="#1e293b" />
+      <text x="15" y="21" font-family="'system-ui', -apple-system, sans-serif" font-style="italic" font-size="12" fill="#38bdf8">
+        "Code is my canvas. Creativity is my brush."
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Decorative Floating Tech Logos -->
+  <!-- React Logo -->
+  <g class="floating-logo-1" transform="translate(640, 70)">
+    <circle cx="0" cy="0" r="32" fill="#0e1726" stroke="#00d8ff" stroke-width="1.5" filter="url(#glow-cyan)"/>
+    <!-- React logo paths -->
+    <ellipse rx="20" ry="7" fill="none" stroke="#00d8ff" stroke-width="1.5" transform="rotate(0)"/>
+    <ellipse rx="20" ry="7" fill="none" stroke="#00d8ff" stroke-width="1.5" transform="rotate(60)"/>
+    <ellipse rx="20" ry="7" fill="none" stroke="#00d8ff" stroke-width="1.5" transform="rotate(120)"/>
+    <circle cx="0" cy="0" r="3.5" fill="#00d8ff"/>
+  </g>
+
+  <!-- Node.js Logo -->
+  <g class="floating-logo-2" transform="translate(560, 170)">
+    <circle cx="0" cy="0" r="26" fill="#0e1726" stroke="#5fa04e" stroke-width="1.5"/>
+    <!-- Node Hexagon -->
+    <path d="M 0,-12 L 10.39,-6 L 10.39,6 L 0,12 L -10.39,6 L -10.39,-6 Z" fill="none" stroke="#5fa04e" stroke-width="2"/>
+    <path d="M 0,-12 L 10.39,-6 L 0,0 Z" fill="#5fa04e" opacity="0.7"/>
+    <path d="M -10.39,6 L 0,0 L -10.39,-6 Z" fill="#5fa04e" opacity="0.9"/>
+  </g>
+
+  <!-- JavaScript Logo -->
+  <g class="floating-logo-3" transform="translate(710, 190)">
+    <circle cx="0" cy="0" r="22" fill="#0e1726" stroke="#f7df1e" stroke-width="1.5"/>
+    <rect x="-8" y="-8" width="16" height="16" fill="#f7df1e" rx="2"/>
+    <text x="4" y="6" font-family="'Impact', sans-serif" font-size="13" fill="#000000" text-anchor="end">JS</text>
+  </g>
+</svg>
