@@ -22,7 +22,7 @@
 
 ## ⚡ Quick Pitch & Philosophy
 
-Welcome to my digital workspace! I am a final-year BCA student and an aspiring full-stack developer dedicated to mastering the MERN stack and writing clean, scalable, and modular code.
+Welcome to my digital workspace! I am a BCA graduate and an aspiring full-stack developer dedicated to mastering the MERN stack and writing clean, scalable, and modular code.
 
 > **"Every bug I fix is a lesson learned. Every feature I ship is a story told. I don't just build projects—I build possibilities."**
 
@@ -51,20 +51,7 @@ Welcome to my digital workspace! I am a final-year BCA student and an aspiring f
   </ul>
 </details>
 
----
 
-## 📊 Git Analytics &amp; Insights
-
-Here is a live look at my coding journey, language distribution, and activity on GitHub, customized to match my workspace theme.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lakshmipathy-r&show_icons=true&bg_color=040209&title_color=00F2FE&icon_color=8B5CF6&text_color=e2e8f0&accent_color=FF2A85&border_color=252147&border_radius=12&locale=en&hide_border=false" alt="Lakshmipathy's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lakshmipathy-r&layout=compact&bg_color=040209&title_color=00F2FE&icon_color=8B5CF6&text_color=e2e8f0&accent_color=FF2A85&border_color=252147&border_radius=12&hide_border=false" alt="Lakshmipathy's Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lakshmipathy-r&background=040209&title=00F2FE&currStreakLabel=e2e8f0&currStreakVal=FF2A85&prevStreakLabel=e2e8f0&prevStreakVal=8B5CF6&fire=FF2A85&sideNums=e2e8f0&sideLabels=e2e8f0&dates=64748b&ring=8B5CF6&hide_border=false&border=252147&border_radius=12" alt="Lakshmipathy's Commit Streak" width="98%" />
-</p>
 
 ---
 
