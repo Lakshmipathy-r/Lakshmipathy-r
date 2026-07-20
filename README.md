@@ -7,7 +7,7 @@
   <a href="https://www.linkedin.com/in/lakshmipathy-r-">
     <img src="https://img.shields.io/badge/LinkedIn-05050C?style=for-the-badge&logo=linkedin&logoColor=00F2FE" alt="LinkedIn Badge" />
   </a>
-  <a href="https://lakshmipathy-r.github.io/Portfolio/">
+  <a href="https://lakshh-folio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-05050C?style=for-the-badge&logo=About.me&logoColor=8B5CF6" alt="Portfolio Badge" />
   </a>
   <a href="mailto:lakshmipathyr2k6@gmail.com">
@@ -162,7 +162,7 @@ Here is a selection of my key projects demonstrating frontend visuals, full-stac
 
 <br />
 
-### 🧑‍💼 [Personal Portfolio](https://github.com/Lakshmipathy-r/Portfolio)
+### 🧑‍💼 [Portfolio-template](https://github.com/Lakshmipathy-r/Portfolio)
 * **Technologies:** <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" alt="GitHub Pages" />
 * **Highlights:** Responsive layouts, modern typography, portfolio grid.
 
@@ -184,7 +184,7 @@ Here is a selection of my key projects demonstrating frontend visuals, full-stac
 If you want to collaborate on a project, discuss full-stack development patterns, or share coding resources, feel free to reach out!
 
 * 💼 **LinkedIn:** [linkedin.com/in/lakshmipathy-r-](https://www.linkedin.com/in/lakshmipathy-r-)
-* 🌐 **Portfolio:** [lakshmipathy-r.github.io/Portfolio/](https://lakshmipathy-r.github.io/Portfolio/)
+* 🌐 **Portfolio:** [(https://lakshh-folio.vercel.app/)](https://lakshh-folio.vercel.app/)
 * 📧 **Email:** [lakshmipathyr2k6@gmail.com](mailto:lakshmipathyr2k6@gmail.com)
 * 🐙 **GitHub:** [@Lakshmipathy-r](https://github.com/Lakshmipathy-r)
 
